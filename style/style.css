@@ -9,32 +9,20 @@
     box-sizing: border-box;
 }
 
-/*elementos base*/
-body{
-   background: var(--preta);
-   font-family: 'Arial', Times, serif;
-   color:white;
-}
-
-header{
-    background-color: #141414;
-}
 
 header .container{
     display:flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
 
-    
 }
 
-header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font: Bebas;
-    font-size:40px;
-}
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color:white;
+ }
 
 header nav a{
     text-decoration:none;
@@ -47,33 +35,51 @@ header nav a:hover{
     color:#fff;
 }
 
-/*filme principal*/
-.filme-principal{
+.menu2 img{
+    width: 17%;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+
+.box-novela{
+    height: 200px;
+    width: 100px;
+    border-radius: 10%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-novelas{
+    margin-top:10px;
+}
+
+
+.titulo-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
-
     height:400px;
-    background-size:cover;
- 
-
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url("OCravoeaRosa.jpg"); 
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 30px;
 }
 
-
-.novela-principal .descricao{
+.titulo-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 
-.novela-principal .titulo{
+.titulo-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
+
 
 .botao{
     background-color: rgba(0,0,0,.50);
@@ -86,6 +92,7 @@ header nav a:hover{
 
     cursor: pointer;
     transition: .3s ease all;
+    border-radius: 20%;
 }
 
 .botao:hover{
@@ -96,43 +103,3 @@ header nav a:hover{
 .botao i{
     margin-right: 8px;
 }
-
-
-.container{
-    margin-left: 20px;
-}
-
-.filme-principal .container{
-    width: 70%;
-}
-
-.box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
-    cursor: pointer;
-}
-
-
-.carrosel-filmes{
-    margin-top:5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

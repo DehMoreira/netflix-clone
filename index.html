@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/style.css">
 
     <!--responsividade-->
     <link rel="stylesheet" href="style/responsive.css">
@@ -12,26 +12,33 @@
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
-    <title>NETFLIX CLONE</title>
+    <title>NovelFlix</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
+            <img src="img/logo.png">
+            <nav class="menu1">
                 <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#">Novelas</a>
+                <a href="#">Minisséries</a>
+            </nav>
+            <nav class="menu2">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><img src="img/icon.png"></a> 
+                <a href="#">Sair</a>
             </nav>
         </div>
     </header>
 
+
     <main>
-        <div class="filme-principal">
+        <div class="titulo-principal">
             <div class="container">
-                <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+                <h3 class="titulo">O cravo e a Rosa</h3>
+                <p class="descricao">A novela é ambientada na São Paulo dos anos 1920 e narra o conflituado romance entre
+                                     o rude caipira Julião Petruchio e a geniosa Catarina, moça com ideias feministas e a filha 
+                                     mais velha do banqueiro Nicanor Batista.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
@@ -46,47 +53,120 @@
         </div>
     </main>
 
-    <div class="carrosel-filmes">
+
+<section>
+<h3 class="tituloSessao">Minha Lista</h3>
+    <div class="carrosel-novelas">
         <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/Kubanacan.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/ChocolateComPimenta.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/OBeijoDoVampiro.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/RoqueSanteiro.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/Malhacao.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/CheiasdeCharme.jpg" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/A viagem.png" alt="" srcset="">
                 </div>
                 <div class="item">
-                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
+                    <img class="box-novela" src="img/novelas/CaminhodasIndias.png" alt="" srcset="">
                 </div>
         </div>
     </div>
+</section>
 
+<section>
+    <h3 class="tituloSessao">Ano 2000</h3>
+        <div class="carrosel-novelas">
+            <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-novela" src="img/novelas/CravoeaRosa.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-novela" src="img/novelas/Esplendor.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-novela" src="img/novelas/LacosDeFamilia.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-novela" src="img/novelas/MarcasDaPaixão.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-novela" src="img/novelas/UgaUga.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-novela" src="img/novelas/VidasCruzadas.jpg" alt="" srcset="">
+                    </div>
+            </div>
+        </div>
+    </section> 
+
+    <section>
+        <h3 class="tituloSessao">Minisséries</h3>
+            <div class="carrosel-novelas">
+                <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="box-novela" src="img/minisseries/Amazonia.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/minisseries/O_Quinto_dos_Infernos.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/minisseries/Dalva_e_Herivelto_-_Uma_Canção_de_Amor.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/minisseries/O tempoEoVento.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/minisseries/AcasaDasSeteMulheres.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/minisseries/As_Noivas_de_Copacabana.jpg" alt="" srcset="">
+                        </div>
+                </div>
+            </div>
+        </section>  
+
+    <section>
+        <h3 class="tituloSessao">Novelas da Record</h3>
+            <div class="carrosel-novelas">
+                <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="box-novela" src="img/novelas/Bichodomato.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/novelas/EscravaIsaura.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/novelas/Rebelde.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/novelas/CaminhosDoCoracao.jpg" alt="" srcset="">
+                        </div>
+                        <div class="item">
+                            <img class="box-novela" src="img/novelas/OsDezMandamentos.png" alt="" srcset="">
+                        </div>
+                </div>
+            </div>
+        </section>  
 
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/funcoes.js"></script>
  
 
  
